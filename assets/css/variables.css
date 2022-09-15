@@ -3,6 +3,9 @@
     --accent-color: #E0AFA0;
     --light-color: #F4F3EE;
 
+    --shadow-dark: rgb(220, 219, 214, 0.5);
+    --shadow-light: rgb(255, 255, 255, 0.7);
+
     --base-font: Verdana, Geneva, Tahoma, sans-serif;
     --accent-font: 'Qwitcher Grypen', cursive;
 
