@@ -1,0 +1,29 @@
+/* 
+    Changed z-index, opacity, position */
+
+.round-img{
+
+    z-index: -10;
+    position: fixed;
+
+    opacity: 0.4;
+    object-fit: cover;  
+}
+
+
+/* added styling to business card class*/ 
+.businesscard{
+    padding: 3rem;
+}
+
+.businesscard ul{
+    gap: 2rem;
+}
+.businesscard li, .businesscard p, .businesscard a{
+    font-size: 1.2rem;
+}
+
+.businesscard i{
+    font-size: 2rem;
+    padding-right: 1rem;
+}

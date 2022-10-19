@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Added height */
+
+body{
+    background-color: var(--shadow-light);
+
+    color: var(--base-color);
+    font-family: var(--base-font);
+
+    min-height: 100vh;
+
+}
+
+
+/* Kept basefont and made seperat class for accent font to use on <span> added width, align-self */
+h1{
+    font-size: 8em;
+    width: 60%;
+    align-self: flex-start;
+    word-wrap: break-word;
+    font-weight: bolder;
+}
+
+/* added media query */
+@media screen and (max-width: 992px) {
+    h1{
+        width:100%;
+        font-size: 5em;
+    }
+}
+
+
+/* changed size added weght and stretch */
+h2{
+    font-size: 4em;
+    font-weight: lighter;
+    font-stretch: narrower;
+}
+
+.accent-font{
+    font-family: var(--accent-font);
+}
+
+/* added styling on header p */ 
+
+header p{
+    font-size: 3em;
+    background-color: var(--accent-color);
+    align-self: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: var(--base-color);
+}
+
+a:hover{
+    color: var(--accent-color);
+}
+
+ul{
+    list-style: none;
+}
+li{
+    padding:0.1em;
+}
+li i{
+    padding-right: 1em;
+}

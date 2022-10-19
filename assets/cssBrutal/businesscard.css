@@ -1,0 +1,30 @@
+.businesscard{
+    display: flex;
+
+    width: 100%;
+
+    text-align: left;
+
+    align-items: flex-end;
+}
+
+.businesscard ul{
+    display: flex;
+
+    padding: 2rem;
+
+    border: 2px solid var(--accent-color);
+
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.businesscard li, .businesscard a, .businesscard p{
+    font-size: 0.8rem;
+}
+
+.businesscard i{
+    font-size: 1.5rem;
+    
+}

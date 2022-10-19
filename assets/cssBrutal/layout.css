@@ -1,0 +1,47 @@
+
+.wrapper{
+    display: flex;
+
+    width: 80%;
+    padding: 1rem;
+    margin: 2rem auto;
+
+    border: 2px solid var(--base-color);
+
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper{
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+main, section, article, footer{
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
+

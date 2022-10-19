@@ -1,0 +1,41 @@
+/* added background color */
+nav{
+    display: flex;
+  
+    width: 100%;
+
+    background-color: var(--shadow-light);
+
+    flex-direction: row-reverse;
+    align-items: center;
+
+    gap: 1em;
+  
+}
+
+/* added padding to keep content from jumping */
+nav label i{
+    font-size: 1.5em;
+
+    padding: 1.2rem;
+}
+
+
+nav input[type="checkbox"]{
+    display: none;
+}
+
+nav ul{
+    display: none;
+
+    font-size: 1.2em;
+
+    gap: 1em;
+
+}
+
+
+nav input[type="checkbox"]:checked ~ ul{
+    display: flex;
+}
+

@@ -1,0 +1,42 @@
+.resume{
+    width: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 3em;
+   
+}
+.summary{
+    flex: 1 0 100%;
+
+    align-items: flex-start;
+}
+.experience{
+
+    padding-right: 3rem;
+    flex: 1 1 60%;
+    
+
+}
+
+.experience h2{
+    align-self: flex-start;
+}
+
+.resume aside{
+
+    display: flex;
+
+    border: 2px solid var(--accent-color);
+
+    align-self: center;
+    flex: 1 0;
+
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 2em;
+
+    padding: 3em;
+}
